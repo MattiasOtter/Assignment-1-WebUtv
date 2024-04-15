@@ -1,0 +1,32 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    background: black;
+    justify-content: baseline;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {}
+
+footer {}
+
+.yt-logo {
+    background: grey;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 90px;
+    padding: 0 0;
+    justify-content: baseline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
