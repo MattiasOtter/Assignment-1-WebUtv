@@ -22,7 +22,7 @@
         padding-top: 2rem;
 
         color: white;
-        background-color: tan;
+        background-color: rgb(17, 17, 17);
     }
 
     .navbar-logo {
@@ -39,5 +39,27 @@
         width: 25vw;
         height: 25px;
         border-radius: 5px;
+    }
+
+    main {
+        padding: 5rem 0 0 5rem;
+    }
+
+    @media (min-width: 810px) {
+        .short-grid img:nth-child(-n+3) {
+            display: block;
+        }
+    }
+
+    @media (min-width: 1050px) {
+        .short-grid img:nth-child(-n+4) {
+            display: block;
+        }
+    }
+
+    @media (min-width: 1300px) {
+        .short-grid img:nth-child(-n+5) {
+            display: block;
+        }
     }
 }

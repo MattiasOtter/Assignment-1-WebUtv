@@ -1,0 +1,17 @@
+@media (min-width: 1500px) {
+    .container {
+        background: rgb(17, 17, 17);
+        width: 1500px;
+        margin: 0 auto;
+        height: 100%;
+        /* padding: 5rem 0 0 5rem; */
+    }
+
+    .pic-grid {
+        flex: 1 0 100%;
+        /* This will make the pic-grid take the full width in smaller screens */
+    }
+
+
+
+}
