@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -6,27 +14,56 @@ header {
     height: 56px;
     display: flex;
     background: black;
-    justify-content: baseline;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
 }
 
 main {}
 
 footer {}
 
+.right-header-content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 1rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 2rem;
+    padding: 25px;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {}
+
+
 .yt-logo {
-    background: grey;
+    background: black;
     color: white;
     border: none;
     height: 20px;
-    width: 90px;
+    width: 72px;
     padding: 0 0;
-    justify-content: baseline;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 20px;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+
+.searchfield {
+    display: none;
+}
+
+.navbar-logo {
+    display: none;
 }

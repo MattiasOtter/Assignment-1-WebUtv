@@ -1,5 +1,11 @@
 @media (min-width: 600px) {
 
+
+
+    .searchfield {
+        display: inline-block;
+    }
+
     .sidenavbar {
         position: fixed;
         display: flex;
@@ -13,11 +19,25 @@
         gap: 2rem;
         font-size: 12px;
 
+        padding-top: 2rem;
+
         color: white;
         background-color: tan;
-
     }
 
-    .sidenavbar-distans {}
+    .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+
+    #site-search {
+        background-color: rgba(169, 169, 169, 0.228);
+        border-color: grey;
+        width: 25vw;
+        height: 25px;
+        border-radius: 5px;
+    }
 }

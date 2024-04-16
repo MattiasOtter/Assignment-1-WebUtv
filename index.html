@@ -7,19 +7,31 @@
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="tablet.css">
     <script src="https://kit.fontawesome.com/831fd7bd57.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/trade-gothic-lt-std" rel="stylesheet">
 
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
+    </style>
     <title>Youtube</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <div>
-                <nav>
-                    <button class="sidenavbar"></button>
-                </nav>
-                <button class="yt-logo fa-brands fa-youtube fa-lg" style="color: #db0000;">Youtube</button>
+        <div class="header-content">
+            <div class="fa-solid fa-layer-group" style="color: #ffffff;"></div>
+            <div class="logo-content">
+                <div class="fa-brands fa-youtube fa-xl" style="color: #db0000;"></div>
+                <button class="yt-logo">YouTube</button>
             </div>
+        </div>
+        <div>
+            <input class="searchfield" type="search" id="site-search" name="q" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-microphone" style="color: #ffffff;"></i>
+        </div>
+        <div class="right-header-content">
+            <i class="fa-solid fa-ellipsis-vertical" style="color: #ffffff;"></i>
+            <i class="fa-regular fa-circle-user" style="color: #ffffff;">Logga in</i>
         </div>
     </header>
 
@@ -28,28 +40,22 @@
     <main>
         <div>
             <nav class="sidenavbar">
-                <div>
+                <div class="navbar-logo">
                     <i class="fa-solid fa-house fa-xl"></i>
                     <p>Home</p>
                 </div>
-                <div>
+                <div class="navbar-logo">
                     <i class="fa-solid fa-play fa-xl"></i>
                     <p>Shorts</p>
                 </div>
-                <div>
+                <div class="navbar-logo">
                     <i class="fa-solid fa-folder fa-xl"></i>
                     <p>Subcriptions</p>
                 </div>
-                <div>
+                <div class="navbar-logo">
                     <i class="fa-brands fa-square-youtube fa-2xl"></i>
                     <p>You</p>
                 </div>
-                <!-- <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="shorts">Shorts</a></li>
-                    <li><a href="subcription">Subcription</a></li>
-                    <li><a href="you">You</a></li>
-                </ul> -->
             </nav>
         </div>
     </main>
