@@ -27,6 +27,7 @@ footer {}
     align-items: center;
     margin-left: auto;
     gap: 1rem;
+    margin-right: 25px;
 }
 
 .header-content {
@@ -34,7 +35,7 @@ footer {}
     align-items: center;
     margin-right: auto;
     gap: 2rem;
-    padding: 25px;
+    margin-left: 25px;
 }
 
 .logo-content {
