@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 792px) {
 
 
 
@@ -45,21 +45,30 @@
         padding: 5rem 0 0 5rem;
     }
 
-    @media (min-width: 810px) {
-        .short-grid img:nth-child(-n+3) {
-            display: block;
-        }
+    .categories {
+        position: fixed;
+        margin-top: 56px;
+        margin-left: 80px;
+        padding: 0 0 1rem 6px;
+        background-color: rgb(17, 17, 17);
+        width: 100%;
     }
+}
 
-    @media (min-width: 1050px) {
-        .short-grid img:nth-child(-n+4) {
-            display: block;
-        }
+@media (min-width: 810px) {
+    .short-grid img:nth-child(-n+3) {
+        display: block;
     }
+}
 
-    @media (min-width: 1300px) {
-        .short-grid img:nth-child(-n+5) {
-            display: block;
-        }
+@media (min-width: 1050px) {
+    .short-grid img:nth-child(-n+4) {
+        display: block;
+    }
+}
+
+@media (min-width: 1300px) {
+    .short-grid img:nth-child(-n+5) {
+        display: block;
     }
 }
