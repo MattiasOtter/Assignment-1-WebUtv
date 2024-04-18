@@ -13,7 +13,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 56px;
+    height: 52px;
     display: flex;
     background: rgb(17, 17, 17);
     justify-content: space-around;
@@ -24,8 +24,26 @@ header {
     display: flex;
     align-items: center;
     margin-left: auto;
-    gap: 1rem;
-    margin-right: 25px;
+    gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+.log-in {
+    display: flex;
+    border: .5px solid #636363;
+    border-radius: 1rem;
+    padding: .5rem .8rem;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.log-in-text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgb(62, 167, 255);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .header-content {
@@ -43,7 +61,7 @@ header {
 
 .yt-logo {
     background: rgb(17, 17, 17);
-    color: white;
+    color: #F1F1F1;
     border: none;
     height: 20px;
     width: 72px;
@@ -52,8 +70,9 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-left: 4px;
     font-size: 20px;
-    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .searchfield {
@@ -63,10 +82,13 @@ header {
 /* CATEGORY BAR */
 .categories {
     position: fixed;
-    margin-top: 56px;
-    padding: 0 0 1rem 6px;
+    margin-top: 52px;
+    padding: .62rem 0 .5rem 1.9rem;
     background-color: rgb(17, 17, 17);
     width: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .category-section {
@@ -75,14 +97,14 @@ header {
 }
 
 .category {
-    margin-right: 1rem;
+    margin-right: .6rem;
     word-wrap: none;
     white-space: nowrap;
     border: none;
-    border-radius: 15px;
+    border-radius: 8px;
     background-color: rgba(128, 128, 128, 0.287);
-    color: #DDD;
-    padding: .5rem 1rem;
+    color: rgb(241, 241, 241);
+    padding: .4rem .8rem;
     font-size: inherit;
     cursor: pointer;
     transition: background-color 150ms;
@@ -93,14 +115,13 @@ header {
 }
 
 .category.active {
-    background-color: #CCC;
-    color: #333;
+    background-color: rgb(241, 241, 241);
+    color: rgb(17, 17, 17);
     border-color: #999;
 }
 
 .category:last-child {
     margin-right: 0;
-
 }
 
 /* SIDEBAR */
@@ -112,14 +133,10 @@ header {
 /* MAIN */
 main {
     background: rgb(17, 17, 17);
-    padding: 5rem 0 0 0;
-
+    padding: 4.6rem 0 0 0rem;
 }
 
 /* VIDEOS */
-
-/* TESTING VIDEOS*/
-
 .video-container {
     display: flex;
     flex-direction: column;
@@ -131,11 +148,6 @@ main {
     gap: 3rem 1rem;
     padding: 3rem 0;
     margin: 0 1.5rem;
-    border-top: 4px solid #CCC
-}
-
-.video-section:first-child {
-    border-top: none;
 }
 
 .thumbnail img {
@@ -143,26 +155,20 @@ main {
     height: 100%;
     min-width: 250px;
     max-width: 450px;
-
 }
 
-.pic-grid {
+/* SHORTS */
+
+.shorts-text {
+    color: #F1F1F1;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0 0 0 1rem;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 10px;
 }
 
-.pic-grid img {
-    flex-grow: inherit;
-    width: 100%;
-    min-width: 200px;
-    max-width: 450px;
-    /* You can adjust this value */
-}
-
-
-/* SHORTS */
 .short-grid {
     display: flex;
     justify-content: left;
@@ -177,6 +183,3 @@ main {
 .short-grid img:nth-child(-n+2) {
     display: block;
 }
-
-/* FOOTER */
-footer {}

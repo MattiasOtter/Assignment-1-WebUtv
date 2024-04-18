@@ -1,28 +1,22 @@
 @media (min-width: 792px) {
 
 
-
-    .searchfield {
-        display: inline-block;
-    }
-
     .sidenavbar {
         position: fixed;
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        top: 56px;
+        top: 50px;
         left: 0;
         bottom: 0;
         width: 74px;
-        gap: 2rem;
-        font-size: 12px;
-
+        gap: 30px;
+        font-size: 10px;
         padding-top: 2rem;
-
+        padding-right: 8px;
         color: white;
         background-color: rgb(17, 17, 17);
+        font-family: Roboto, Arial, Helvetica, sans-serif;
     }
 
     .navbar-logo {
@@ -30,26 +24,64 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 7px;
     }
 
-
-    #site-search {
-        background-color: rgba(169, 169, 169, 0.228);
-        border-color: grey;
-        width: 25vw;
-        height: 25px;
-        border-radius: 5px;
+    .navbar-logo p {
+        font-size: 9px;
     }
+
+    .middle-header-content {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 3.7rem;
+    }
+
+    .searchbar {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        color: rgb(136, 136, 136);
+        background-color: #181818;
+        border-color: #484848;
+        max-width: 55vw;
+        height: 2.2rem;
+        border-radius: 1rem;
+        border: 0.5px solid #636363;
+        justify-content: space-between;
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+
+    .searchfield {
+        display: flex;
+        color: rgb(136, 136, 136);
+        background-color: #181818;
+        border-color: #484848;
+        width: 45.2vw;
+        height: 2.2rem;
+        border-radius: 1rem;
+        border: 0.5px solid #636363;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+
 
     main {
-        padding: 5rem 0 0 5rem;
+        padding: 4.5rem 0 0 3.6rem;
     }
 
     .categories {
         position: fixed;
         margin-top: 56px;
-        margin-left: 80px;
-        padding: 0 0 1rem 6px;
+        margin-left: 88px;
+        padding: .4rem 0 0.5rem 0;
         background-color: rgb(17, 17, 17);
         width: 100%;
     }
