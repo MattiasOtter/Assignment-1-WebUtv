@@ -1,4 +1,4 @@
-@media (min-width: 792px) {
+@media (min-width: 720px) {
 
 
     .sidenavbar {
@@ -31,46 +31,7 @@
         font-size: 9px;
     }
 
-    .middle-header-content {
-        display: flex;
-        flex: 1;
-        align-items: center;
-        gap: 2rem;
-        margin-left: 3.7rem;
-    }
 
-    .searchbar {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-
-        color: rgb(136, 136, 136);
-        background-color: #181818;
-        border-color: #484848;
-        max-width: 55vw;
-        height: 2.2rem;
-        border-radius: 1rem;
-        border: 0.5px solid #636363;
-        justify-content: space-between;
-        padding: 0 1rem;
-        font-size: 15px;
-    }
-
-    .searchfield {
-        display: flex;
-        color: rgb(136, 136, 136);
-        background-color: #181818;
-        border-color: #484848;
-        width: 45.2vw;
-        height: 2.2rem;
-        border-radius: 1rem;
-        border: 0.5px solid #636363;
-        font-family: Roboto, Arial, Helvetica, sans-serif;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 1rem;
-        font-size: 15px;
-    }
 
 
     main {
